@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>HamsterSharp</Title>
+    <Version>0.0.1</Version>
+    <Authors>liljaba1337</Authors>
+    <Description>A Hamster Kombat API wrapper for C# written in .NET 8</Description>
+    <PackageProjectUrl>https://github.com/LIL-JABA/hamstersharp</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/LIL-JABA/hamstersharp</RepositoryUrl>
+    <PackageTags>hamsterkombat;hamstercombat</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
